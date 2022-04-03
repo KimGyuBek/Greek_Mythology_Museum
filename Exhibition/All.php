@@ -18,9 +18,7 @@
         <header>
             <?php include("../header.html"); ?>
         </header>
-        <!-- <section id="slider" style="no-repeat 50% top; background-size:auto 100%;"> -->
-        <section id="sub_visual">
-            <img id="sub_visual" src="../img/exhibition/sub_visual_bg.jpg" alt="">
+        <img id="sub_visual" src="../img/exhibition/sub_visual_bg.jpeg" alt="">
         </section>
         <div id="sub_main">
             <aside id="left_menu">

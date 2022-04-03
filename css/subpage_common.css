@@ -67,4 +67,6 @@
 #sub_visual {
   position: relative;
   height: 200px;
+  background-size: auto 100%;
+  margin-left: 10px;
 }
