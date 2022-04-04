@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>그리스신화박물관</title>
-    <link rel="stylesheet" href="../css/common.css">
-    <link rel="stylesheet" href="../css/subpage_common.css">
-    <link rel="stylesheet" href="../css/about.css">
+    <link rel="stylesheet" href="../css/common.css?<?php echo date('Y h:i:s'); ?>">
+    <link rel="stylesheet" href="../css/subpage_common.css?<?php echo date('Y h:i:s'); ?>">
+    <link rel="stylesheet" href="../css/about.css?<?php echo date('Y h:i:s'); ?>">
     <script src="//code.jquery.com/jquery-3.4.1.min.js"></script>
 
 </head>
@@ -19,7 +19,11 @@
             <?php include("../header.html"); ?>
         </header>
         <section id="slider">
-            <img src="../img/aboutus/sub_visual_bg.jpg" alt="">
+            <div id="sub_visual" style="background:url(../img/exhibition/sub_visual_bg.jpeg)">
+                <div class="text">
+                    <img src="../img/exhibition/sub_visual_txt.png" alt="그리스 신화가 살아 숨쉬는 곳  Greek mythology is alive">
+                </div>
+            </div>
         </section>
         <div id="sub_main">
             <aside id="left_menu">

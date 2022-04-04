@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>그리스신화박물관</title>
-    <link rel="stylesheet" href="../css/common.css">
-    <link rel="stylesheet" href="../css/subpage_common.css">
-    <link rel="stylesheet" href="../css/about.css">
+    <link rel="stylesheet" href="../css/common.css?<?php echo date('Y h:i:s'); ?>">
+    <link rel="stylesheet" href="../css/subpage_common.css?<?php echo date('Y h:i:s'); ?>">
+    <link rel="stylesheet" href="../css/about.css?<?php echo date('Y h:i:s'); ?>">
     <script src="//code.jquery.com/jquery-3.4.1.min.js"></script>
 
 </head>
