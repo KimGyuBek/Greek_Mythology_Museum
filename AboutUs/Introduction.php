@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="kor">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,8 +10,9 @@
     <link rel="stylesheet" href="../css/subpage_common.css">
     <link rel="stylesheet" href="../css/about.css">
     <script src="//code.jquery.com/jquery-3.4.1.min.js"></script>
-  
+
 </head>
+
 <body>
     <div id="wrap">
         <header>
@@ -18,11 +20,16 @@
         </header>
 
         <section id="slider">
-           <img src="../img/aboutus/sub_visual_bg.jpg" alt="">
+            <div id="sub_visual"
+                style="background:url(../img/aboutus/sub_visual_bg.jpg) no-repeat 50% top; background-size:auto 100%;">
+                <div class="text">
+                    <img src="../img/exhibition/sub_visual_txt.png" alt="그리스 신화가 살아 숨쉬는 곳  Greek mythology is alive">
+                </div>
+            </div>
         </section>
         <div id="sub_main">
             <aside id="left_menu">
-               <?php include ("left_menu.html"); ?>
+                <?php include("left_menu.html"); ?>
             </aside>
             <section id="sub_contents">
                 <h3>박물관 소개<span>HOME>그리스박물관>박물관소개</span></h3>
@@ -53,7 +60,8 @@
         <footer>
             <?php include("../footer.html"); ?>
         </footer>
- </div>
-    
+    </div>
+
 </body>
+
 </html>
