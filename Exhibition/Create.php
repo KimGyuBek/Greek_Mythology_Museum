@@ -19,7 +19,7 @@
             <?php include("../header.html"); ?>
         </header>
         <section id="slider">
-            <div id="sub_visual" style="background:url(../img/exhibition/sub_visual_bg.jpeg)">
+            <div id="sub_visual" style="background:url(../img/exhibition/sub_visual_bg.jpeg) no-repeat 50% top;">
                 <div class="text">
                     <img src="../img/exhibition/sub_visual_txt.png" alt="그리스 신화가 살아 숨쉬는 곳  Greek mythology is alive">
                 </div>
