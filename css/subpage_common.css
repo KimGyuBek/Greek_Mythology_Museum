@@ -60,7 +60,7 @@ p {
   color: #888;
   padding: 10px 0;
   margin: 10px 0;
-  border-bottom: 1px solid #aaa;
+  /* border-bottom: 1px solid #aaa; */
 }
 #sub_main #sub_contents h3 span {
   font-size: 14px;
@@ -81,6 +81,16 @@ p {
   margin: 0 auto;
   padding: 90px 0 0 0;
   width: 450px;
+}
+#contents {
+  clear: both;
+  width: 100%;
+  min-height: 400px;
+  border-top: 1px solid #bdbdbd;
+  padding-top: 40px;
+  font-size: 13px;
+  overflow: hidden;
+  border-bottom: 1px solid #aaa;
 }
 #txt_box_color {
   background: url(/img/exhibition/con_box_top.gif) no-repeat left top;
