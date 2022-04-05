@@ -26,7 +26,7 @@
                 <?php include("left_menu.html"); ?>
             </aside>
             <section id="sub_contents">
-                <h3>올리포스관<span>HOME>전시안내>올리포스관</span></h3>
+                <h3>올림포스관<span>HOME>전시안내>올람포스관</span></h3>
                 <h1></h1>
                 <article id="sub_contact">
                     <div>
