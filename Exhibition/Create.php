@@ -18,21 +18,19 @@
         <header>
             <?php include("../header.html"); ?>
         </header>
-        <section id="slider">
-            <div id="sub_visual"
-                style="background:url(../img/exhibition/sub_visual_bg.jpeg) no-repeat 50% top; background-size:auto 100%;">
-                <div class="text">
-                    <img src="../img/exhibition/sub_visual_txt.png" alt="그리스 신화가 살아 숨쉬는 곳  Greek mythology is alive">
-                </div>
+        <div id="sub_visual"
+            style="background:url(../img/exhibition/sub_visual_bg.jpeg) no-repeat 50% top; background-size:auto 100%;">
+            <div class="text">
+                <img src="../img/exhibition/sub_visual_txt.png" alt="그리스 신화가 살아 숨쉬는 곳  Greek mythology is alive">
             </div>
-        </section>
+        </div>
         <div id="sub_main">
             <aside id="left_menu">
                 <?php include("left_menu.html"); ?>
             </aside>
             <section id="sub_contents">
                 <h3>창조관<span>HOME>전시안내>창조관</span></h3>
-                <h1></h1>
+                <h1>test</h1>
                 <article id="sub_contact">
                     <div>
                         <h5>관람문의<span>Tel : 064-773-5800</span>관람시간<span>09:00~18:00 (입장마감 17:00)</span></h5>
