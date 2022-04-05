@@ -1,3 +1,38 @@
+body {
+  font-size: 75%;
+  font-family: "Nanum Gothic", "맑은 고딕", "돋움", "굴림", sans-serif;
+  color: #575757;
+  font-style: normal;
+}
+/* color */
+.red {
+  color: #c40000;
+}
+.orange {
+  color: #da8c51;
+}
+.black {
+  color: #000;
+}
+.sky {
+  color: #3079b1;
+}
+.navy {
+  color: #00578a;
+}
+.blue {
+  color: #4a77a6;
+}
+.green {
+  color: #018c98;
+}
+.purple {
+  color: #655ab0;
+}
+.txt_point {
+  color: #655ab0;
+}
+
 * {
   margin: 0;
   padding: 0;

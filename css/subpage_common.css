@@ -1,3 +1,11 @@
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
 #image_slider {
   width: 100%;
   margin: 5px 0 0 0;
@@ -73,4 +81,27 @@
   margin: 0 auto;
   padding: 90px 0 0 0;
   width: 450px;
+}
+#txt_box_color {
+  background: url(/img/exhibition/con_box_top.gif) no-repeat left top;
+  padding-top: 10px;
+  text-align: center;
+}
+#txt_box_color p {
+  background: url(/img/exhibition/con_box_middle.gif) repeat-y left top;
+  margin: 0;
+  padding: 30px;
+  font-size: 13.5px;
+  color: #757575;
+  line-height: 160%;
+}
+#txt_box_color p span {
+  display: block;
+  background: url(/img/exhibition/con_box_line.gif) no-repeat center bottom;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+#txt_box_color_wrap {
+  background: url(/img/exhibition/con_box_bottom.gif) no-repeat left bottom;
+  padding-bottom: 10px;
 }
