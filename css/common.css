@@ -1,5 +1,5 @@
 body {
-  font-size: 75%;
+  /* font-size: 75%; */
   font-family: "Nanum Gothic", "맑은 고딕", "돋움", "굴림", sans-serif;
   color: #575757;
   font-style: normal;
@@ -69,12 +69,12 @@ header #head #top_menu ul li {
   float: left;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 20px;
   color: #666;
   border-right: 1px solid #666;
 }
 header #head #top_menu ul li a {
-  font-size: 10px;
+  font-size: 12px;
 }
 header #head #top_menu ul li:last-child {
   border-right: 1px solid white;
