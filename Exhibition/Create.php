@@ -17,7 +17,7 @@
     <div id="wrap">
         <!-- header -->
         <header>
-            <?php include("../header.html"); ?>
+            <?php include("../header.php"); ?>
         </header>
         <!-- header end -->
 
@@ -50,9 +50,12 @@
                         <div id="txt_box_color_wrap">
                             <p>
                                 <span class="title">
-                                    <img src="/img/exhibition/exhibition_title01.gif" alt="창조관">
+                                    <h2>창조관</h2>
+                                    <p>그리스 신화가 살아 숨쉬는 곳 GREEK MYTHOLOGY IS ALIVE</p>
+
+                                    <!-- <img src="/img/exhibition/exhibition_title01.gif" alt="창조관"> -->
                                 </span>
-                                <strong class="blue">“두근두근 콩닥콩닥! 이 세상은 어떻게 시작되었을까요?”</strong>
+                                <strong class="blue">우주의 절대적 지배자 제우스와 그 형제, 자손들로 이루어진 올림포스 12신!</strong>
                                 <br>
                                 세상에 아무것도 없었던 때, 그저 끝없이 세상이 펼쳐져 있던 때, 이 상태를 그리스인들은 카오스(혼돈)라고 불렀습니다.
                                 <br>

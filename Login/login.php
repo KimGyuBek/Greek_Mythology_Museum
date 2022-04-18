@@ -19,7 +19,7 @@
     $db_username = "user1";
 
     if ($id != $db_id) {
-        echo "id is discorrect!";
+        echo "alert('Wrong id!')";
     } else if ($passwd != $db_passwd) {
         echo "wrong password!";
     }
@@ -32,6 +32,7 @@
     ?>
 
     <script>
+    alert("로그인 되었습니다");
     location.href = "../index.php";
     </script>
 </body>

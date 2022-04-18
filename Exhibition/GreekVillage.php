@@ -17,7 +17,7 @@
     <div id="wrap">
         <!-- header -->
         <header>
-            <?php include("../header.html"); ?>
+            <?php include("../header.php"); ?>
         </header>
         <!-- header end -->
 
@@ -38,51 +38,60 @@
             </aside>
             <!-- left menu end -->
 
-            <!-- location -->
+            <!-- contents -->
             <section id="sub_contents">
-                <h3>그리스마을<span>HOME>전시안내>그리스 마을</span></h3>
-            </section>
-            <!-- location end -->
+                <!-- location -->
+                <h3>그리스마을<span>HOME>전시안내>그리스마을</span></h3>
+                <!-- location end -->
 
-            <div id="contents">
-                <!-- 페이지 내용 시작 -->
-                <div id="txt_box_color">
-                    <div id="txt_box_color_wrap">
-                        <p>
-                            <span class="title">
-                                <img src="/img/exhibition/exhibition_title01.gif" alt="창조관">
-                            </span>
-                            <strong class="blue">“두근두근 콩닥콩닥! 이 세상은 어떻게 시작되었을까요?”</strong>
-                            <br>
-                            세상에 아무것도 없었던 때, 그저 끝없이 세상이 펼쳐져 있던 때, 이 상태를 그리스인들은 카오스(혼돈)라고 불렀습니다.
-                            <br>
+                <!-- page content start -->
+                <div id="contents">
+                    <div id="txt_box_color">
+                        <div id="txt_box_color_wrap">
+                            <p>
+                                <span class="title">
+                                    <h2>그리스마을</h2>
+                                    <p>그리스 신화가 살아 숨쉬는 곳 GREEK MYTHOLOGY IS ALIVE</p>
 
-                            대지의 여신 가이아와 하늘의 신 우라노스의 천지창조, 이어진 크로노스의 시대와 제우스의 탄생 그리고 전쟁,
-                            <br>
+                                    <!-- <img src="/img/exhibition/exhibition_title01.gif" alt="창조관"> -->
+                                </span>
+                                <strong class="blue">타임머신을 타고 옛 그리스마을로 들어가 직접 체험해보세요!</strong>
+                                <br>
+                                아테네학당 : 고대 그리스의 건축, 의학, 철학, 수학, 과학, 정치, 문학, 연극, 도기&화폐, 의복, 올림픽을 한눈에~
+                                <br>
 
-                            올림포스 12신이 세상을 통치하게 되기까지의 과정을 아름다운 월 그래픽으로 만나보세요!
-                        </p>
+                                선물 가게：그리스의 역사와 아름다운 정취를 느낄 수 있는 아트상품이 가득!
+                                <br>
+
+                                체험관 : 아테네 시민권 발급, 가면 만들기 등 다양한 체험과 함께 재미있는 그리스 신화 도서도 읽어보세요~
+
+                            </p>
+
+                        </div>
 
                     </div>
+                    <div class="exhibition_img">
+                        <img src="/img/exhibition/exhibition_img07.jpeg" alt="창조관 전경">
+                    </div>
+                    <!-- page content end -->
 
                 </div>
-                <div class="exhibition_img">
-                    <img src="/img/exhibition/exhibition_img01.jpeg" alt="창조관 전경">
-                </div>
-                <!-- 페이지 내용 끝 -->
-
-            </div>
-            <h1></h1>
-            <article id="sub_contact">
-                <div>
-                    <h5>관람문의<span>Tel : 064-773-5800</span>관람시간<span>09:00~18:00 (입장마감 17:00)</span></h5>
-                </div>
-            </article>
-            <!-- </section> -->
+                <h1></h1>
+                <!-- contact -->
+                <article id="sub_contact">
+                    <div>
+                        <h5>관람문의<span>Tel : 064-773-5800</span>관람시간<span>09:00~18:00 (입장마감 17:00)</span></h5>
+                    </div>
+                </article>
+                <!-- contact end -->
+            </section>
         </div>
+
+        <!-- footer -->
         <footer>
             <?php include("../footer.html"); ?>
         </footer>
+        <!-- footer end -->
     </div>
 
 </body>

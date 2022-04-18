@@ -16,7 +16,7 @@
 <body>
     <div id="wrap">
         <header>
-            <?php include("../header.html"); ?>
+            <?php include("../header.php"); ?>
         </header>
 
         <section id="slider">
@@ -50,16 +50,72 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <?php for ($i = 8; $i > 0; $i--) { ?>
                         <tr>
-                            <td><?php echo $i ?></td>
-                            <td>그리스 신화 박물관</td>
-                            <td>김규백</td>
-                            <td>파일</td>
-                            <td>1999.04.11</td>
-                            <td>199</td>
+                            <td>8</td>
+                            <td>그리스 신화 박물관 포스트 시작...</td>
+                            <td>운영자</td>
+                            <td></td>
+                            <td>2018-08-05</td>
+                            <td>2813</td>
                         </tr>
-                        <?php } ?>
+                        <tr>
+                            <td>7</td>
+                            <td>2018 새해 복 많이 받으세요~~
+                            <td>운영자</td>
+                            <td></td>
+                            <td>2018-02-15</td>
+                            <td>3004</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>2017년도 문화가 있는날은 계속...</td>
+                            <td>운영자</td>
+                            <td></td>
+                            <td>2017-06-23</td>
+                            <td>3199</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>2017년도 정유년 새해복 많이 받...
+                            <td>
+                            <td>운영자</td>
+                            <td></td>
+                            <td>2017-01-26</td>
+                            <td>3970</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>7월 제주도민을 위한 SNS EVENT!
+                            <td>
+                            <td>운영자</td>
+                            <td></td>
+                            <td>2015-07-06</td>
+                            <td>7236</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>가정의 달 Happy Event</td>
+                            <td>운영자</td>
+                            <td></td>
+                            <td>2015-04-15</td>
+                            <td>7139</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>매월 마지막 수요일은 문화가...</td>
+                            <td>운영자</td>
+                            <td></td>
+                            <td>2015-02-27</td>
+                            <td>7684</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>그리스신화박물관 홈페이지 OPEN</td>
+                            <td>운영자</td>
+                            <td></td>
+                            <td>2015-02-09</td>
+                            <td>7019</td>
+                        </tr>
                     </tbody>
                 </table>
 
