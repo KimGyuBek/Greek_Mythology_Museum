@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../css/common.css?<?php echo date('Y h:i:s'); ?>">
     <link rel="stylesheet" href="../css/subpage_common.css?<?php echo date('Y h:i:s'); ?>">
     <link rel="stylesheet" href="../css/about.css?<?php echo date('Y h:i:s'); ?>">
+    <link rel="stylesheet" href="../css/login.css?<?php echo date('Y h:i:s'); ?>">
     <script src="//code.jquery.com/jquery-3.4.1.min.js"></script>
 
 </head>
@@ -47,56 +48,53 @@
                 <!-- page content start -->
                 <div id="contents">
                     <div class="flex-div">
-                        <h1 class="logo">그리스 신화박물관</h1>
-                        <p>그리스 신확 살아 숨쉬는 곳</p>
                     </div>
-                    <div id="txt_box_color">
-                        <div id="txt_box_color_wrap">
-                            <p>
-                                <span class="title">
-                                    <h2>로그인</h2>
-                                    <span id="login_input" style="border: 3px;">
-                                        <form action="login.php" method="post" style="">
-                                            <ul>
-                                                <li>아이디 : <input type="text" name="id" id="" placeholder="아이디"></li>
-                                                <li>비밀번호 : <input type="password" name="passwd" id=""
-                                                        placeholder="비밀번호"></li>
-                                            </ul>
-                                            <input type="submit" value="로그인">
-                                        </form>
+                    <!-- <div id="txt_box_color"> -->
+                    <!-- <div id="txt_box_color_wrap"> -->
+                    <p>
+                        <span class="title">
+                            <span id="login_input" style="border: 3px;">
+                                <form action="login.php" method="post" style="">
+                                    <ul id="login_box">
+                                        <li id="login_li">
+                                            <label><input type="text" name="id" id="" placeholder="아이디">
+                                            </label>
+                                            <label><input type="password" name="passwd" id=""
+                                                    placeholder="비밀번호"></label>
+                                            </label>
 
-                                    </span>
-                                    <!-- <p>그리스 신화가 살아 숨쉬는 곳 GREEK MYTHOLOGY IS ALIVE</p> -->
+                                            <label><input id="login_button" type="submit" value="로그인"></label>
+                                        </li>
 
-                                    <!-- <img src="/img/exhibition/exhibition_title01.gif" alt="창조관"> -->
-                                </span>
-                            </p>
+                                    </ul>
+                                </form>
 
-                        </div>
+                            </span>
 
-                    </div>
-                    <!-- <div class="exhibition_img">
-                        <img src="/img/exhibition/exhibition_img01.jpeg" alt="창조관 전경">
-                    </div> -->
-                    <!-- page content end -->
+                        </span>
+                    </p>
 
                 </div>
-                <h1></h1>
-                <!-- contact -->
-                <article id="sub_contact">
-                    <div>
-                        <h5>관람문의<span>Tel : 064-773-5800</span>관람시간<span>09:00~18:00 (입장마감 17:00)</span></h5>
-                    </div>
-                </article>
-                <!-- contact end -->
-            </section>
+
         </div>
 
-        <!-- footer -->
-        <footer>
-            <?php include("../footer.html"); ?>
-        </footer>
-        <!-- footer end -->
+    </div>
+    <h1></h1>
+    <!-- contact -->
+    <article id="sub_contact">
+        <div>
+            <h5>관람문의<span>Tel : 064-773-5800</span>관람시간<span>09:00~18:00 (입장마감 17:00)</span></h5>
+        </div>
+    </article>
+    <!-- contact end -->
+    </section>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <?php include("../footer.html"); ?>
+    </footer>
+    <!-- footer end -->
     </div>
 
 </body>

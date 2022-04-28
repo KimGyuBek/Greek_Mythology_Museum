@@ -1,0 +1,144 @@
+* {
+  -webkit-text-size-adjust: none;
+}
+
+body {
+  font-size: 14px;
+  font-family: "Noto Sans KR", "돋움", Dotum, Arial, sans-serif;
+  letter-spacing: -0.3px;
+  letter-spacing: -0.02rem;
+  line-height: 1em;
+  position: relative;
+  color: #000;
+  font-weight: 400;
+  /* /* overflow-x: hidden !important; */
+}
+div {
+  vertical-align: baseline;
+  font-family: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  display: block;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+/* .tab_wrap .tab_menu a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
+} */
+.sub_top {
+  background-position: center center;
+  background-size: cover;
+  background-image: url(../img/employee/sub_top_img_002.jpeg);
+  background-repeat: no-repeat;
+  height: 210px;
+}
+
+.tab_wrap {
+  text-align: center;
+  background: #e9e9e9;
+}
+
+.tab_wrap .tab_menu li {
+  width: 200px;
+  float: left;
+  width: 280px;
+  line-height: 60px;
+}
+.tab_wrap .tab_menu {
+  display: inline-block;
+  overflow: hidden;
+}
+
+.tab_wrap .tab_menu li a {
+  display: block;
+  font-weight: 600;
+  color: #66667c;
+  font-size: 20px;
+}
+
+li.cur {
+  border-top: 2px solid #0053a0;
+  background: #fff;
+}
+
+.page_top {
+  margin: 70px auto 50px auto;
+  text-align: center;
+}
+
+.s_inner {
+  margin: 0 auto;
+  width: 1140px;
+  position: relative;
+}
+
+page_top .page_title {
+  vertical-align: baseline;
+  font-family: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+#footer {
+  background: #d2cfcd;
+}
+.footer_inner {
+  overflow: hidden;
+}
+.footer_left {
+  float: left;
+}
+footer .footer_left .footer_menu {
+  margin: 58px 0 28px 0;
+}
+
+.footer_menu ul {
+  overflow: hidden;
+}
+#footer .footer_left .footer_menu ul li {
+  float: left;
+  position: relative;
+  padding-left: 35px;
+  margin-left: 35px;
+}
+#footer .footer_left .footer_logo {
+  width: 198px;
+  margin-bottom: 10px;
+  max-width: 100%;
+}
+.space {
+  display: block;
+  width: 0;
+  height: 0;
+}
+#footer .footer_left .copyright {
+  font-size: 16px;
+  line-height: 1em;
+  color: #777;
+  margin-bottom: 42px;
+}

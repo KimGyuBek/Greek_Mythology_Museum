@@ -70,6 +70,15 @@
                 <li><a href="/Event/Info.php">이벤트 안내</a></li>
             </ul>
         </li>
+        <li><a href="">채용정보</a>
+            <ul class="sub_menu">
+                <li><a href="./employee/info.php">채용정보</a></li>
+                <li><a href="">추천채용</a></li>
+                <li><a href="">일반채용</a></li>
+                <li><a href="">정부지원일자리</a></li>
+                <li><a href="">아르바이트</a></li>
+            </ul>
+        </li>
     </ul>
 </nav>
 <nav id="quick_menu">
